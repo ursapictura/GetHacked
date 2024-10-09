@@ -1,15 +1,25 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import getUsers from '../api/UserData';
+import PostCard from '../components/PostCard';
+
 function Home() {
+  const [users, setUsers] = useState([]);
+
+  const getUserProfiles = () => {
+    getUsers().then(setUsers);
+  };
+
+  useEffect(() => {
+    getUserProfiles();
+  }, []);
+
   return (
-    <div
-      className="text-center d-flex flex-column justify-content-center align-content-center"
-      style={{
-        height: '90vh',
-        padding: '30px',
-        maxWidth: '400px',
-        margin: '0 auto',
-      }}
-    >
-      Welcome to Next JS!
+    <div style={{ display: 'flex', flexFlow: 'wrap' }}>
+      {users.map((user) => (
+        <PostCard userObj={user} />
+      ))}
     </div>
   );
 }
