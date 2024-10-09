@@ -11,8 +11,10 @@
 
 <p align="center">A frontend application allowing users to find and favorite other users from around the world. This application randomly introduces you to 8 random strangers from around the globe. Read their details and decide if you want to connect!</p>
 
+<h2>Preview</h2>
 
-![App Screenshot](https://github.com/user-attachments/assets/a0bdf3bd-67c7-445a-911b-3ff634c763bc)
+![Appscreenshot](https://github.com/user-attachments/assets/43e02b0e-70dd-4ffb-867b-fe8abe41a220)
+
 
 
 
@@ -32,7 +34,7 @@
 
 - Generates 8 random users from around the world
 - users can favorite other users
-- users can view other users' details
+- users can view other users' details in a modal
 
 <h2 id="started">🚀 Getting started</h2>
 
