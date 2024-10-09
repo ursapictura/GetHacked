@@ -1,46 +1,126 @@
-# NextJS with Firebase Auth App Router Template
 
-[See Live Demo of this Template](https://drt-next-js-template-app-router.netlify.app/)
+<h1 align="center" style="font-weight: bold;">GetHacked!💻</h1>
 
-## Topics
-- [Get Started](#get-started)
-- [Starting the Project](#starting-the-project)
-- [Deploying on Netlify](#deploying-on-netlify)
-___
-## Getting Started
-### Use Template
-#### 1. To get started, click the GREEN "Use this Template" button at the top of the repo
-<img width="915" alt="Screen Shot 2022-07-06 at 12 54 01 PM" src="https://user-images.githubusercontent.com/29741570/177612998-4aac9237-5a1e-4f13-8ae0-468587521564.png">
+<p align="center">
+<a href="#tech">Technologies</a>
+<a href="#features">Features</a>
+<a href="#started">Getting Started</a>
+<a href="#colab">Collaborators</a>
+</p>
 
-#### 2. Make sure YOUR github account is selected in the dropdown and name your project
-<img width="763" alt="Screen Shot 2022-07-06 at 12 54 48 PM" src="https://user-images.githubusercontent.com/29741570/177613126-dd38f678-7553-4f27-8a4a-75680f14d71e.png">
 
-#### 3. Clone your new repo to your local machine
-#### 4. Go to the **NEXT** section
+<p align="center">A frontend application allowing users to find and favorite other users from around the world. This application randomly introduces you to 8 random strangers from around the globe. Read their details and decide if you want to connect!</p>
 
-## Starting the Project
-1. Create a Firebase project and set up authentication. Use [these videos](https://vimeo.com/showcase/codetracker-firebase) as a refresher if needed.
-1. From your command line, be in the root directory and run `npm install` OR `npm i` for short.
-1. Next, run `npm run prepare`. This command sets up husky to track eslint errors on commit that will make your deploy fail on Netlify.
-1. To start your application, run `npm run dev`. THIS IS THE COMMAND YOU WILL USE TO RUN YOUR DEVELOPMENT SERVER FROM NOW ON.
-1. Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-### Deploying on Netlify
-Netlify will automatically detect your project and prepopulate the settings, but should something go wrong and it does not, here are the commands:
+<p align="center">
+<a href="https://github.com/ursapictura/GetHacked">📱 Visit this Project</a>
+</p>
 
-- Build Command: `npm run build`
-- Publish directory: `.next`
+<h2 id="tech">💻 Technologies</h2>
 
-#### Additional Steps to Take on Netlify
-- Add Environmental Variables
-    - Any Enviromental variables you are using in your `.env` file should be added to Netlify. 
-        - Go to Site settings > Build & deploy > Environment > Environment variables and the keys and values there if you did not add them when you were deploying your site
+- React
+- Next.js
+- CSS
+- JavaScript
+- Bootstrap
 
-- Update Firebase URL Settings
-    - In Firebase under Authentication select sign in methods, scroll to Authorized domains. Add your Netlify URL.
-        
-## Learn More about Next.js
-To learn more about Next.js, take a look at the following resources:
+<h2 id="features">🌟 Features</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Generates 8 random users from around the world
+- users can favorite other users
+- users can view other users' details
+
+<h2 id="started">🚀 Getting started</h2>
+
+Fork this repo to your own GitHub before cloning to your local machine. 
+
+<h3>Cloning</h3>
+
+How to clone your project
+
+```bash
+git clone your-project-url-in-github
+```
+
+<h3>Starting</h3>
+
+How to start your project
+
+```bash
+cd project-name
+npm install
+npm run prepare
+npm run dev
+```
+
+<h2 id="colab">🤝 Collaborators</h2>
+
+<p>Special thank you for all people that contributed for this project.</p>
+<table>
+<tr>
+
+<td align="center">
+<a href="https://github.com/ursapictura">
+<img src="https://avatars.githubusercontent.com/u/104770521?v=4" width="100px;" alt="Haley Smith Profile Picture"/><br>
+<sub>
+<b>Haley Smith</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/alexberka">
+<img src="https://avatars.githubusercontent.com/u/148516337?v=4" width="100px;" alt="Alex Berka Profile Picture"/><br>
+<sub>
+<b>Alex Berka</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://avatars.githubusercontent.com/u/173227373?v=4">
+<img src="https://avatars.githubusercontent.com/u/173227373?v=4" width="100px;" alt="sirenabailie Profile Picture"/><br>
+<sub>
+<b>sirenabailie</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/rossm933">
+<img src="https://avatars.githubusercontent.com/u/148557558?v=4" width="100px;" alt="Ross Morgan Profile Picture"/><br>
+<sub>
+<b>Ross Morgan</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/Jgochey">
+<img src="https://avatars.githubusercontent.com/u/172943647?v=4" width="100px;" alt="Josh Gochey Profile Picture"/><br>
+<sub>
+<b>Josh Gochey</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/jessefrench">
+<img src="https://avatars.githubusercontent.com/u/106822556?v=4" width="100px;" alt="Jesse French Profile Picture"/><br>
+<sub>
+<b>Jesse French</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/Dtrjeo">
+<img src="https://avatars.githubusercontent.com/u/174376521?v=4" width="100px;" alt="Dtrjeo Profile Picture"/><br>
+<sub>
+<b>Dtrjeo</b>
+</sub>
+</a>
+</td>
+
+</tr>
+</table>
