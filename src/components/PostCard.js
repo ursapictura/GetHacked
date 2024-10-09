@@ -1,17 +1,13 @@
 import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { PropTypes } from 'prop-types';
+import UserDetails from './UserDetails';
 
 export default function PostCard({ userObj }) {
   const [favorited, setFavorited] = useState(false);
-  const [details, setDetails] = useState(false);
 
   const handleFavoriteClick = () => {
     setFavorited((prev) => !prev);
-  };
-
-  const handleDetailsClick = () => {
-    setDetails((prev) => !prev);
   };
 
   return (
@@ -22,19 +18,10 @@ export default function PostCard({ userObj }) {
           {userObj.name.first} {userObj.name.last}
         </Card.Title>
         <Card.Text>{userObj.location.country}</Card.Text>
-        {details && (
-          <div>
-            <p>Email: {userObj.email}</p>
-            <p>Phone: {userObj.phone}</p>
-            <p>Age: {userObj.dob.age}</p>
-          </div>
-        )}
         <Button variant={favorited ? 'danger' : 'light'} onClick={handleFavoriteClick}>
           Favorite
         </Button>
-        <Button variant="primary" onClick={handleDetailsClick}>
-          Details
-        </Button>
+        <UserDetails userObj={userObj} />
       </Card.Body>
     </Card>
   );
