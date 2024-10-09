@@ -18,7 +18,7 @@ function Home() {
   return (
     <div style={{ display: 'flex', flexFlow: 'wrap' }}>
       {users.map((user) => (
-        <PostCard userObj={user} />
+        <PostCard userObj={user} key={user.name.first} />
       ))}
     </div>
   );
